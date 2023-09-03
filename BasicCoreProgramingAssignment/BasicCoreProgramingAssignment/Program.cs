@@ -48,6 +48,10 @@ namespace BasicCoreProgramingAssignment
                     NumberEvenOdd numberEvenOdd = new NumberEvenOdd();
                     numberEvenOdd.EvenOdd();
                     break;
+                    case 9:
+                    VowelConsonant vowelConsonant = new VowelConsonant();
+                    vowelConsonant.Alphabet();
+                    break;
             }
             Console.ReadLine();
         }
