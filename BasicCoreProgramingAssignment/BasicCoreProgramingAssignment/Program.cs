@@ -15,11 +15,11 @@ namespace BasicCoreProgramingAssignment
             Console.WriteLine();
             switch (d)
             {
-                case 1:
+                    case 1:
                     FlipCoin f = new FlipCoin();
                     f.Toss();
                     break;
-                case 2:
+                    case 2:
                     LeapYear y = new LeapYear();
                     y.CheckYear();
                     break;
@@ -31,6 +31,10 @@ namespace BasicCoreProgramingAssignment
                     case 4:
                     HarmonicNumber harmonicNumber = new HarmonicNumber();
                     harmonicNumber.Number();
+                    break;
+                    case 5:
+                    Factor factor = new Factor();
+                    factor.FindFactor();
                     break;
             }
             Console.ReadLine();
