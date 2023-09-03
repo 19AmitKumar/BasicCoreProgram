@@ -28,6 +28,10 @@ namespace BasicCoreProgramingAssignment
                     PowerOf2 powerOf2 = new PowerOf2();
                     powerOf2.Power();
                     break;
+                    case 4:
+                    HarmonicNumber harmonicNumber = new HarmonicNumber();
+                    harmonicNumber.Number();
+                    break;
             }
             Console.ReadLine();
         }
