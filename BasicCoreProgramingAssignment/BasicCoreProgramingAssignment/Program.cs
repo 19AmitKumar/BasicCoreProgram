@@ -40,6 +40,10 @@ namespace BasicCoreProgramingAssignment
                     Quotient_reminder quotient_Reminder = new Quotient_reminder();
                     quotient_Reminder.Divide();
                     break;
+                    case 7:
+                    SwapNumbers swapNumbers = new SwapNumbers();
+                    swapNumbers.swap();
+                    break;
             }
             Console.ReadLine();
         }
