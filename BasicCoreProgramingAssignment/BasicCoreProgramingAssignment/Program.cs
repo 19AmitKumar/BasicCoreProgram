@@ -36,6 +36,10 @@ namespace BasicCoreProgramingAssignment
                     Factor factor = new Factor();
                     factor.FindFactor();
                     break;
+                    case 6:
+                    Quotient_reminder quotient_Reminder = new Quotient_reminder();
+                    quotient_Reminder.Divide();
+                    break;
             }
             Console.ReadLine();
         }
