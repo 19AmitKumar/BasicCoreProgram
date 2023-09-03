@@ -52,6 +52,10 @@ namespace BasicCoreProgramingAssignment
                     VowelConsonant vowelConsonant = new VowelConsonant();
                     vowelConsonant.Alphabet();
                     break;
+                    case 10:
+                    LargestAmongThree largestAmongThree = new LargestAmongThree();
+                    largestAmongThree.Largest();
+                    break;
             }
             Console.ReadLine();
         }
