@@ -44,6 +44,10 @@ namespace BasicCoreProgramingAssignment
                     SwapNumbers swapNumbers = new SwapNumbers();
                     swapNumbers.swap();
                     break;
+                    case 8:
+                    NumberEvenOdd numberEvenOdd = new NumberEvenOdd();
+                    numberEvenOdd.EvenOdd();
+                    break;
             }
             Console.ReadLine();
         }
