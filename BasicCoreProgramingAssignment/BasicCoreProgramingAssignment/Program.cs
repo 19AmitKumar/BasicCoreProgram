@@ -18,6 +18,10 @@ namespace BasicCoreProgramingAssignment
                     FlipCoin f = new FlipCoin();
                     f.Toss();
                     break;
+                case 2:
+                    LeapYear y = new LeapYear();
+                    y.CheckYear();
+                    break;
             }
             Console.ReadLine();
         }
